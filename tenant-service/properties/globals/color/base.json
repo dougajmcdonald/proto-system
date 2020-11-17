@@ -13,8 +13,8 @@
         "900" : { "value": "#3B3B3B" },
         "1000" : { "value": "#222222" }
       },
-      "red": { "value": "#FF0000" },
-      "green": { "value": "#00FF00" }
+      "white": { "value": "#FFFFFF" },
+      "black": { "value": "#000000" }
     }
   }
 }

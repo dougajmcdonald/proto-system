@@ -5,7 +5,18 @@
       "heading"  : { "value": "{color.base.gray.900.value}" },
       "subtle"   : { "value": "{color.base.gray.700.value}" },
       "primary"  : { "value": "{color.brand.primary.value}" },
-      "secondary": { "value": "{color.brand.secondary.value}" }
+      "secondary": { "value": "{color.brand.secondary.value}" },
+      "button": {
+        "primary": {
+          "value": "{color.base.white.value}"
+        },
+        "secondary": {
+          "value": "{color.brand.primary.value}"
+        },
+        "tertiary": {
+          "value": "{color.brand.primary.value}"
+        }                
+      }
     }
   }
 }

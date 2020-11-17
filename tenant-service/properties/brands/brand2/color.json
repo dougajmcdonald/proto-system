@@ -3,6 +3,13 @@
       "brand": {
         "primary"  : { "value": "#BCD200" },
         "secondary": { "value": "#005268" }
+      },
+      "background": {
+        "button": {
+          "primary": {
+            "value": "{color.brand.secondary.value}"
+          }
+        }
       }
     }
   }

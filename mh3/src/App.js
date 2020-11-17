@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import logo from './logo.svg';
 import './App.css';
 import themeService from './services/theme-service'
 import { ThemeProvider } from 'styled-components'
 import StyledButton from './Button'
+import { Button } from 'lantern'
 
 function App() {
 
@@ -21,20 +21,15 @@ function App() {
     theme && <ThemeProvider theme={theme}>
       <div className="App">      
         <header className="App-header">
+          <p>These are some local components using a theme, which you can change</p>
           <StyledButton onClick={() => setBrand('brand1')}>Brand 1</StyledButton>
           <StyledButton onClick={() => setBrand('brand2')}>Brand 2</StyledButton>
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+
+          <p>These buttons are imported from a separate npm package but share the same theme</p>
+          <Button variant='primary'>Primary</Button>
+          <Button variant='secondary'>Secondary</Button>
+          <Button variant='tertiary'>Tertiary</Button>
+
         </header>      
       </div>
     </ThemeProvider>

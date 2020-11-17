@@ -1,0 +1,17 @@
+{
+    "color": {
+        "background": {
+            "button": {
+                "primary": {
+                    "value": "{color.brand.primary.value}"
+                },
+                "secondary": {
+                    "value": "transparent"
+                },
+                "tertiary": {
+                    "value": "transparent"
+                }
+            }
+        }
+    }
+}
