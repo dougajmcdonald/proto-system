@@ -1,0 +1,11 @@
+{
+  "color": {
+    "font": {
+      "body"     : { "value": "{color.base.gray.800.value}" },
+      "heading"  : { "value": "{color.base.gray.900.value}" },
+      "subtle"   : { "value": "{color.base.gray.700.value}" },
+      "primary"  : { "value": "{color.brand.primary.value}" },
+      "secondary": { "value": "{color.brand.secondary.value}" }
+    }
+  }
+}

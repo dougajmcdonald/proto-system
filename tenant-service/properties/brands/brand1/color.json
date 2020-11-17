@@ -1,0 +1,8 @@
+{
+    "color": {
+      "brand": {
+        "primary"  : { "value": "#01A5B8" },
+        "secondary": { "value": "#AF2887", "comment": "Does Moneyhub really have a secondary colour? I've picked this lovely cerise" }        
+      }
+    }
+  }
