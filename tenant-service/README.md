@@ -27,6 +27,7 @@ Outstanding questions in this area include:
 
 - Do we use one build and generate all themes as separate files / endpoints? or do we generate a single `theme` which takes a parameter to know what needs building?
 - How do we handle static resources (e.g. Fonts/images) which we want to self host but also are tenant specific?
+- Decide whether we can feed the design token source from Figma - https://blog.prototypr.io/design-tokens-with-figma-aef25c42430f
 
 ## Tech choices
 

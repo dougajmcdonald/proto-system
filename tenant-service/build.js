@@ -15,8 +15,8 @@ function getStyleDictionaryConfig(brand, platform) {
         "buildPath": `build/web/${brand}/`,
         "files": [
           {
-            "destination": "theme.js",
-            "format": "javascript/object"
+            "destination": "theme.json",
+            "format": "json/nested"
           }
         ]
       }
