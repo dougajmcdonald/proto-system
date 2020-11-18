@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const BaseButton = styled.button`
   cursor: 'pointer';
   font-weight: 'bold';
-  padding: ${({ theme }) => theme.size.base.medium};
+  padding: ${({ theme }) => theme.size.base.m};
 `
 
 const VariantButton = styled(BaseButton)`  

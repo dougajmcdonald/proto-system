@@ -11,7 +11,7 @@ function getStyleDictionaryConfig(brand, platform) {
     ],
     "platforms": {
       "web": {
-        "transformGroup": "js",
+        "transforms": ["attribute/cti", "name/cti/kebab", "color/css", "size/rem"],
         "buildPath": `build/web/${brand}/`,
         "files": [
           {
